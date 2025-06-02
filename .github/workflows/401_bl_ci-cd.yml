@@ -20,7 +20,7 @@ env:
 jobs:
   Build-401-BL-Continuous-Integration:
     runs-on: self-hosted
-    if: true # set if condition to false to skip the current job this is releas branch changes, this is the first commit on hotfix branch as urgent fix
+    if: true # set if condition to false to skip the current job this is releas branch changes, first commit since the first versioning
     defaults:
       run:
         shell: cmd
